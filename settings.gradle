@@ -1,0 +1,2 @@
+rootProject.name = 'gkh'
+include 'gkh-users', 'gkh-commons'

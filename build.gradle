@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+group 'com.gkh'
+version '1.0'
+
+description 'Project: Accounting of utility bills (module Aggregator)'
+
+subprojects {
+    // здесь можно указать общие настройки для всех подпроектов
+}
