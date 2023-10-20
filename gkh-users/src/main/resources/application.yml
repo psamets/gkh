@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pgdb2
+    username: pgdb
+    password: pgdb
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    hibernate:
+      ddl-auto: update
+
+com.spp.springbootdemo:
+  redis:
+    host: localhost
+    port: 6379
