@@ -4,6 +4,11 @@ pipeline {
         githubPush()
     }
     stages {
+        stage('Verify Git') {
+            steps {
+                sh 'git --version'
+            }
+        }
         stage('Checkout') {
             steps {
                 git credentialsId: '3cfa0986-6db8-42cd-9b93-e2fa34f3dcf3', url: 'https://github.com/psamets/gkh.git'
