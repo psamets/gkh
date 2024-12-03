@@ -12,6 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Команды сборки проекта, например, Gradle
+                sh 'chmod -R +x ./'
                 sh './gradlew build'
             }
         }
