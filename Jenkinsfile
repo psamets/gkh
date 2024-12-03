@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'github-token', url: 'https://github.com/psamets/gkh.git'
+                git credentialsId: '3cfa0986-6db8-42cd-9b93-e2fa34f3dcf3', url: 'https://github.com/psamets/gkh.git'
             }
         }
         stage('Build') {
