@@ -8,8 +8,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class GkhUsersApplication {
 
     public static void main(String[] args) {
-        //SpringApplication.run(GkhUsersApplication.class, args);
-        new SpringApplicationBuilder(GkhUsersApplication.class).run(args);
+        SpringApplication.run(GkhUsersApplication.class, args);
+        //new SpringApplicationBuilder(GkhUsersApplication.class).run(args);
     }
 
 }
